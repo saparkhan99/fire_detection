@@ -26,7 +26,11 @@ The results:
 Model vs. real predictions are in test_data folder.
 
 # Weights
-There are two types of weights are available. The first one in .pt format, which can be used for inference with basic yolo commands on terminal and onnx format used in the scripts provided.
+Two types of weights are available. The first one in .pt format, which can be used for inference with basic yolo commands on terminal. Link: 
+https://drive.google.com/file/d/1srRH07SNccoiN0FjcsEpSWv-Lk0qaevu/view?usp=share_link
+
+
+Another is in onnx format used in the scripts provided. Link: https://drive.google.com/file/d/11GJUhYZ_-L2p3isMonlrf9TQF3Ylz40d/view?usp=share_link
 
 
 # Testing
