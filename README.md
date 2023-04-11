@@ -1,7 +1,5 @@
 # fire_detection
-Fire detection model is based on the yolov7.  The model was trained to differentiate two clases: smoke and fire. 
-
-The following dataset from kaggle was used:
+Fire detection model is based on the yolov7.  The model was trained to differentiate two clases: smoke and fire with the dataset from kaggle.
 
 
 
@@ -23,11 +21,15 @@ R_curve:
 The results:
 ![results](https://user-images.githubusercontent.com/47181212/231273184-5e1846a5-af63-4c50-b301-dba989d5371f.png)
 
+
+
+Model vs. real predictions are in test folder
+
 # Wights
 There are two types of weights are available. The first one in .pt format, which can be used for inference with basic yolo commands on terminal and onnx format used in the scripts provided.
 
 
-# Test 
+# Testing
 
 In order to run and test the model with real time detection, do the following:
   1. Download and use the yolov7 from the official github: https://github.com/WongKinYiu/yolov7
