@@ -1,5 +1,29 @@
 # fire_detection
-Fire detection model based on the yolov7. In order to run and test the code do the following:
+The model was trained to differentiate two clases: smoke and fire. It was trained on the dataset from kaggle. Link:
+
+
+
+
+# Model performances
+
+The confusion matrix: 
+![confusion_matrix](https://user-images.githubusercontent.com/47181212/231272843-0e594303-4980-4b18-8fc9-3dd4f629b200.png)
+
+P_curve: 
+![P_curve](https://user-images.githubusercontent.com/47181212/231273298-7cf301bf-3ea6-465d-9b63-c1a2b7f7c54d.png)
+
+PR_curve:
+![PR_curve](https://user-images.githubusercontent.com/47181212/231273174-e9ddda22-23ba-41e9-8d05-27f77cd27154.png)
+
+R_curve:
+![R_curve](https://user-images.githubusercontent.com/47181212/231273308-46a94895-4b36-4bee-8db9-596102c6d390.png)
+
+The results:
+![results](https://user-images.githubusercontent.com/47181212/231273184-5e1846a5-af63-4c50-b301-dba989d5371f.png)
+
+# Test 
+
+Fire detection model based on the yolov7. In order to run and test the model with real time detection, do the following:
   1. Download and use the yolov7 from the official github: https://github.com/WongKinYiu/yolov7
      Go through the instructions and intall the requirements.
   2. in your terminal run: "pip install onnxruntime"
